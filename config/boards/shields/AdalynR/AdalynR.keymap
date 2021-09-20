@@ -67,10 +67,10 @@
         numsym_layer {
             label = "Numsym";
             bindings = <
-    &kp N1           &kp N2        &kp N3        &kp N4        &kp N5           &kp N6           &kp N7           &kp N8           &kp N9           &kp N0   
-	&am LGUI EXCL    &am LALT AT   &am LCTRL HASH &am LSHFT DLLR &kp PERCENT    &kp GRAVE        &am RSHFT PLUS   &am RCTRL MINUS  &am RALT KP_ASTERISK &kp SQT
-	                &am LSHFT LPAR &kp RPAR       &kp RBKT                      &kp SEMICOLON    &kp SQT          &am RSHFT EQUAL         
-                                                 &trans        &trans           &trans           &trans
+    &kp N1           &kp N2         &kp N3         &kp N4         &kp N5           &kp N6           &kp N7           &kp N8           &kp N9               &kp N0   
+    &am LGUI EXCL    &am LALT AT    &am LCTRL HASH &am LSHFT DLLR &kp PERCENT      &kp GRAVE        &am RSHFT PLUS   &am RCTRL MINUS  &am RALT KP_ASTERISK &kp SQT
+    &none            &none          &am LSHFT LPAR &kp RPAR       &kp RBKT         &kp SEMICOLON    &kp SQT          &am RSHFT EQUAL  &none                &none      
+    &none                           &trans                        &trans           &trans                            &trans                                &none
             >;
         };
 
@@ -78,9 +78,9 @@
             label = "Nav";
             bindings = <
     &kp F1           &kp F2        &kp F3        &kp F4        &none            &none            &kp LC(LEFT)     &kp UP           &kp LC(RIGHT)    &kp screenshot   
-	&am LCTRL F5     &kp F6        &kp F7        &kp F8        &none            &kp F12          &kp LEFT         &kp DOWN         &kp RIGHT        &none
-	                 &am LSHFT F9  &kp F10       &kp F11       &none            &none            &kp C_PREV       &kp C_PP         &kp C_NEXT                
-                                                 &trans        &trans           &kp C_VOL_UP     &kp C_VOL_DN   
+    &am LCTRL F5     &kp F6        &kp F7        &kp F8        &none            &kp F12          &kp LEFT         &kp DOWN         &kp RIGHT        &none
+    &am LSHFT F9     &kp F10       &kp F11       &none         &none            &none            &kp C_PREV       &kp C_PP         &kp C_NEXT       &none        
+    &none                          &trans                      &trans           &kp C_VOL_UP                      &kp C_VOL_DN                      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
