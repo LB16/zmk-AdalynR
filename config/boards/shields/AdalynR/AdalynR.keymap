@@ -5,6 +5,8 @@
 #define NUMSYM      1
 #define NAV         2
 
+#define screenshot LS(LG(S))
+
 / {
     behaviors {
         am: alpha_mods {
