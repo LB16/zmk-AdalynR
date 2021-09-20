@@ -2,5 +2,8 @@ if SHIELD_MY_BOARD
 
 config ZMK_KEYBOARD_NAME
     default "AdalynR"
+    
+config ZMK_USB
+    default y
 
 endif
